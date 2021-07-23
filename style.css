@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    background-color: rgb(3, 3, 134,.7);
+    color: white;
+    text-align: center;
+}
