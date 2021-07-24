@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 25px;
+}
+.golden-highlighter {
+  color: gold;
+}
+.btn-style {
+  background: tomato;
+  padding: 7px 15px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn-style:hover {
+  background: blue;
+  transition: 1s ease 0.5s;
+  cursor: pointer;
+}
+.top-banner {
+  height: 650px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+.dream-area {
+  height: 600px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 30px;
+}
+.half-dream {
+  box-shadow: 10px 15px 30px grey;
+  height: 400px;
+  padding: 10px 20px;
+  border-left: 10px solid slateblue;
+}
+.experience-area {
+  margin-top: 30px;
+  height: 600px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.half-width {
+  width: 45%;
+  margin-left: 3%;
+  padding: 4%;
+}
+.half-width img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
+section {
+  display: flex;
+}
